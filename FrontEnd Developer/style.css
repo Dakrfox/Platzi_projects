@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+html{
+    background-color: bisque;
+}
+.header__minimalist{
+    border-radius: 100px;
+    width: 90%;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: teal;
+    margin: 20px auto;
+    box-shadow: 1px #040404;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-container__center{
+    width: 100%;
+    background: rgba(255,255,255,0.3);
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-container-card{
+    background: #f4f4f4;
+    height: 550px;
+    width: 30%;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px;
+}
+.card-header{
+    display: flex;
+    background-color: #fff;
+    color: teal;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d4d4d4;
+    width: 100%;
+}
+.card-footer{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: #f4f4f4;
+    text-decoration: none;
+
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.card-content-body{
+    display: flex;
+    height: 300px;
+    color: teal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
