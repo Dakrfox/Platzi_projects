@@ -8,6 +8,11 @@
     --md: 16px;
     --lg: 18px;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Quicksand', sans-serif;
@@ -23,7 +28,7 @@ body {
 .form-container{
     display: grid;
     grid-template-rows: auto 1fr auto;
-    width: 300px;
+    width: 400px;
     justify-items: center;
 
 }
@@ -54,12 +59,23 @@ body {
     margin-bottom: 12px;
     padding: 6px;
 }
+.input-email{
+    margin-bottom: 22px;
+}
 .form{
     display: flex;
     flex-direction: column;
-
+    width: 80%;
 }
-.primary-button-login-button{
+.form a {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+    margin-top: 32px;
+}
+.primary-button.login-button{
     background-color: var(--hospital-green);
     border-radius: 8px;
     border: none;
@@ -71,11 +87,32 @@ body {
     margin-top: 14px;
     width: 100%;
 }
+.signup-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+.secondary-button.signup-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    width: 80%;
+    margin-bottom: 60px;
+}
 .logo{
     width: 150px;
     margin-bottom: 48px;
     justify-self: center;
-    display: none;
+    
 }
 .email-image{
     width: 132px;
