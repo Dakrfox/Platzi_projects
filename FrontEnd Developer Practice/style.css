@@ -49,11 +49,12 @@ body {
     font-weight: bold;
     margin-bottom: 4px;
 }
+.login-input,
 .input{
     background-color:  var(--text-input-field);
     border: none;
     border-radius: 8px;
-    height: 30px;
+    height: 40px;
     font-size: var(--md);
 
     margin-bottom: 12px;
@@ -89,7 +90,7 @@ body {
 }
 .signup-container{
     display: flex;
-    width: 100%;
+    width: 400px;
     justify-content: center;
     align-items: center;
     height: 50px;
@@ -138,8 +139,39 @@ body {
     color: var(--hospital-green);
     text-decoration: none;
 }
+.login-input{
+    margin-bottom: 22px;
+}
+.title.log{
+    margin-bottom: 32px;
+
+}
+.create-container{
+    width: 100%;
+    background-color: #000;
+}
+.create-user-button{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    margin-top: 14px;
+    width: 100%;
+    
+}
 @media (max-width: 640){
     .logo{
         display: block;
+    }
+    .form-container{
+        height: 100%;
+    }
+    .form{
+        height: 100%;
+        justify-content: space-between;
     }
 }
