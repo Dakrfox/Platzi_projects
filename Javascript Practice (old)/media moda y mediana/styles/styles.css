@@ -1,0 +1,54 @@
+:root{
+    --main: #555b53;
+    --secondary: #f6f3ee;
+    --bg: #e0ded2;
+    --change: #bdbbad;
+    /*TEXT*/
+    --txt-1: #555b53;
+    --txt-2: #f6f3ee;
+}
+
+*{
+    margin:0;
+    padding:0;
+
+}
+header{
+    width: 100%;
+    background-color: var(--main);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-2);
+}
+section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 90%;
+    background-color: var(--secondary);
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+input{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    margin: 15px 0 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+button{
+    width: 100%;
+    margin: 15px 0 5px 0;
+    height: 30px;
+    background-color: var(--main);
+    color: var(--txt-2);
+}

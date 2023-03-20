@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
+
+}
+body{
+    padding: 10px;
+    background-color: #f3fdfb;
+}
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.info-title{
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+#square{
+    border: solid 2px #040404;
+    border-radius: 25px;
+    background-color: #080e2c;
+    padding: 20px 10px;
+    color: #f3fdfb;
+
+}
+input {
+    border-radius: 16px;
+    height: 35px;
+    padding-left: 10px;
+    margin: 15px;
+    width: 90%;
+}
+.square__form-container, .tri__form-container{
+    display: flex;
+    justify-content: space-around;
+}
+.square__form--button1, .square__form--button2, .tri__form--button2, .tri__form--button1{
+    height: 35px;
+    border-radius: 15px;
+    margin: 15px;
+    width: 50%;
+
+}
+#triangle{
+    margin-top: 50px;
+    border: solid 2px #040404;
+    border-radius: 25px;
+    background-color: #44eabb;
+    padding: 20px 10px;
+    color: #f3fdfb;
+
+}
+#circle{
+    margin-top: 50px;
+    border: solid 2px #040404;
+    border-radius: 25px;
+    background-color: #d8e8e4;
+    padding: 20px 10px;
+    color: #040404;
+}
+.square__form--solutiontext{
+    color: #d8e8e4;
+}
+#diameter_result{
+    color: #040404;
+}
+.container__input{
+    margin-top:20px;
+    width:100%;
+    border:2px solid #d8e8e4;
+    border-radius: 2px;
+
+}
+
+.container__input-title{
+    width: 50px;
+    font-size:18px;
+    margin-top:-12px;
+    margin-left:7px;
+    color: #FFF;
+    background-color: #44eabb;
+}

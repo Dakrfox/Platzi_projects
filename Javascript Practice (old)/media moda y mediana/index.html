@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media | mediana | moda </title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <header>media aritmetica mediana y moda </header>
+    <section class="container" id="container">
+        <div class="list" id="list">
+            <form>
+                <h3>lista de numeros</h3>
+                <p>por favor digite un nuevo y presione el boton de agregar a la lista, solo se aceptan numeros
+                    y tiene un maximo de 25 numeros
+                </p>
+                <input type="text" id="tview" disabled>
+                <input type="number" id="arr-add" maxlength="9" placeholder="Digite aqui el numero">
+                <button type="button" onclick="addlist()"> Agregar</button>
+                <button type="button"> Borrar ultimo</button>
+                <hr>
+                <h4>La media es:</h4>
+                <input type="text" id="media" disabled>
+                <h4>La mediana es:</h4>
+                <input type="text" id="mediana" disabled>
+                <h4>La moda es:</h4>
+                <button type="button" onclick="moda1()">Calcular moda</button>
+                <input type="text" id="moda" disabled>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
