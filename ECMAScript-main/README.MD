@@ -30,4 +30,26 @@ ECMAscript is the JS language especification by ECMA International
     - catch without especify at the begining 
     - description 
 
+### ES11
+- What was implemented in ECMAScript 11?
+    - Optional Chaining
+    - BigInt()
+    - Nullish 
+    - promise.allsettled
+    - globalThis
+    - MatchAll
+    - Dynamic Import
+
+### ES12
+- What was implemented in ECMAScript 12?
+    - Numeric separator 
+    - ReplaceAll
+    - Promise.any
+    - #private
+
+### ES13
+- What was implemented in ECMAScript 13?
+    - at 
+    - Top level await
+
 
