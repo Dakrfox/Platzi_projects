@@ -1,0 +1,11 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "understanding ECMASCTIP V6+\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DR\u001bRIPT V6+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Ivan Martinez Herrera (Dakrfox)",
+  "license": "MIT"
+}
