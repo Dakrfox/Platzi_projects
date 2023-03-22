@@ -10,5 +10,8 @@
     "async"
   ],
   "author": "Nicolas Martinez Herrera <business.nimh@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
