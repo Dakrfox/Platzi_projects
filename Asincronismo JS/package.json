@@ -4,7 +4,8 @@
   "description": "\"practica de asincronismo con JS by Platzi\"",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callback/challenge.js"
+    "callback": "node src/callback/challenge.js",
+    "promise": "node src/promise/challenge.js"
   },
   "keywords": [
     "async"
@@ -12,6 +13,7 @@
   "author": "Nicolas Martinez Herrera <business.nimh@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.3.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
