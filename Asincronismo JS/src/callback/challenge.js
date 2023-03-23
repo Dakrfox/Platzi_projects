@@ -33,7 +33,11 @@ fetchData(`${API}/products`, (err1, data1)=>{
         if (err2) return console.error(err2);
         fetchData(`${API}/categories/${data2?.category?.id}`, function(err3, data3){
             if(err3) return console.error(err3);
-            console.log(data1[0] + " /// " + data2.title + " /// " + data3.name)
+            console.log(data1[0])
+            console.log(data2.title);
+            console.log(data3.name)
         });
     });
 });
+//$ node challenge.js
+//
