@@ -1,0 +1,15 @@
+{
+  "name": "async-project",
+  "version": "1.0.0",
+  "description": "landing Async",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "landing",
+    "async"
+  ],
+  "author": "Nicolas Martinez Herrera <business.nimh@outlook.com>",
+  "license": "MIT"
+}
