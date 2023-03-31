@@ -1,4 +1,5 @@
 const path = require('path');
+const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -11,6 +12,7 @@ module.exports = {
         //react es una extension y se establece aqui
     },
     module: {
+
         rules: [
             {
                 test: /\.m?js$/, //que  tipo de extensions trabajaremos .. regex
@@ -20,5 +22,12 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    plugins: [
+        new htmlWebpackPlugin({
+            infect: true,
+            template: './public/index.html',
+            filename: './index.html'
+        })
+    ]
 }
