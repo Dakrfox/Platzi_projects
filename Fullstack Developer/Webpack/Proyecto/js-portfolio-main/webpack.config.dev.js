@@ -5,7 +5,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
-
+const bundleAnalyzerPlugin = require('webpack-bundle-analyzer');
 
 module.exports = {
     entry: './src/index.js',
@@ -79,6 +79,13 @@ module.exports = {
             ]
         }),
         new Dotenv(),
+        new bundleAnalyzerPlugin(),
     ],
+    devServer:{
+        static: path.join(__dirname, 'dist'),
+        compress: true,
+        historyApiFallback: true,
+        port: 3006,
+    },
     
 }
