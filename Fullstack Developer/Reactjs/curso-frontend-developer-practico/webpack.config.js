@@ -7,30 +7,23 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
     },
+    mode: 'development',
     resolve: {
         extensions: ['.js', '.jsx'],
-        alias:{
-            /*'@utils': path.resolve(__dirname, 'src/utils/'),
-            '@templates': path.resolve(__dirname, 'src/templates/'),
-            '@styles': path.resolve(__dirname, 'src/styles/'),
-            '@images': path.resolve(__dirname, 'src/assets/images/'),
-            */
-        }
-        //react es una extension y se establece aqui
     },
     module: {
         rules: [
             {
-                test: /\.m?js|.jsx$/, //que  tipo de extensions trabajaremos .. regex
+                test: /\.m?js|.jsx$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'
                 }
             },{
                 test: /\.html$/ ,
-                use: [HtmlWebpackplugin.loader,
-                'html-loader'
-            ], 
+                use: {
+                    loader: 'html-loader'
+                }, 
             },
         ]
     },
