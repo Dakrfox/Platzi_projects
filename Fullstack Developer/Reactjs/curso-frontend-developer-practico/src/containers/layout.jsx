@@ -1,12 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
-        <div className="layout">
-            {children}
-        </div>
-        
+    <div className="layout"> 
+        {children}
+    </div>
     );
 }
 
