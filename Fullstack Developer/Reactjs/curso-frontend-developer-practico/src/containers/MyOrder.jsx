@@ -8,8 +8,14 @@ import AppContext from '../context/AppContext';
 
 
 const MyOrder = () => {
-
+	
 	const {state} = useContext(AppContext);
+	const total = ()=>{
+		const totalOrder = state.cart.reduce((accumulator, currentValue)=>{
+			return accumulator + currentValue.price}
+			,0)
+		return totalOrder;
+	}
 	return (
 		<aside className="MyOrder">
 			<div className="title-container">
@@ -24,7 +30,7 @@ const MyOrder = () => {
 					<p>
 						<span>Total</span>
 					</p>
-					<p>$560.00</p>
+					<p>${total()}</p>
 				</div>
 				<button className="primary-button">
 					Checkout
