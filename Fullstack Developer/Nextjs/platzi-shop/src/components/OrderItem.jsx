@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import AppContext from '../context/AppContext';
-import '@styles/OrderItem.scss';
+import '@styles/OrderItem.module.scss';
 import close from '@icons/icon_close.png'
 
 const OrderItem = ({ product }) => {
@@ -11,7 +11,7 @@ const OrderItem = ({ product }) => {
 	}
 
 	return (
-		<div className="OrderItem">
+		<div className={style.OrderItem}>
 			<figure>
 				<img src={product.images[0]} alt={product.title} />
 			</figure>

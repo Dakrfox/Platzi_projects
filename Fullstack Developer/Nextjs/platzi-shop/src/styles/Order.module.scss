@@ -12,12 +12,12 @@
 	flex-direction: column;
 }
 .Order p span:nth-child(1) {
-	font-size: var(--md);
+	font-size: var($--md);
 	font-weight: bold;
 }
 .Order p span:nth-child(2) {
-	font-size: var(--sm);
-	color: var(--very-light-pink);
+	font-size: var($--sm);
+	color: var($--very-light-pink);
 }
 .Order p:nth-child(2) {
 	text-align: end;
