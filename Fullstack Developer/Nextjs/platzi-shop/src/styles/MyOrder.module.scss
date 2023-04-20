@@ -10,7 +10,7 @@
 	top: 60px;
 	bottom: 0;
 	border-radius: 6px;
-	border: 1px solid var(--very-light-pink);
+	border: 1px solid var($--very-light-pink);
 }
 .title-container {
 	display: flex;
@@ -20,7 +20,7 @@
 	margin-right: 14px;
 }
 .title {
-	font-size: var(--lg);
+	font-size: var($--lg);
 	font-weight: bold;
 }
 .order {
@@ -28,7 +28,7 @@
 	grid-template-columns: auto 1fr;
 	gap: 16px;
 	align-items: center;
-	background-color: var(--text-input-field);
+	background-color: var($--text-input-field);
 	margin-bottom: 24px;
 	border-radius: 8px;
 	padding: 0 24px;
@@ -38,7 +38,7 @@
 	flex-direction: column;
 }
 .order p span:nth-child(1) {
-	font-size: var(--md);
+	font-size: var($--md);
 	font-weight: bold;
 }
 .order p:nth-child(2) {
@@ -47,13 +47,13 @@
 }
 
 .primary-button {
-	background-color: var(--hospital-green);
+	background-color: var($--hospital-green);
 	border-radius: 8px;
 	border: none;
-	color: var(--white);
+	color: var($--white);
 	width: 100%;
 	cursor: pointer;
-	font-size: var(--md);
+	font-size: var($--md);
 	font-weight: bold;
 	height: 50px;
 }

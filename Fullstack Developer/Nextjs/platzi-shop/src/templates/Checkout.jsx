@@ -1,10 +1,10 @@
 import React from 'react';
 import OrderItem from '@components/OrderItem';
-import '@styles/Checkout.scss';
+import style from '@styles/Checkout.module.scss';
 
 const Checkout = () => {
 	return (
-		<div className="Checkout">
+		<div className={style.Checkout}>
 			<div className="Checkout-container">
 				<h1 className="title">My order</h1>
 				<div className="Checkout-content">
