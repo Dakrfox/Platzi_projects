@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from '@styles/Menu.module.scss';
 
+
 const Menu = () => {
+	
 	return (
 		<div className={style.Menu}>
 			<ul>
